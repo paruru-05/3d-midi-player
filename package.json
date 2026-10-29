@@ -1,0 +1,28 @@
+{
+  "name": "3d-midi-player",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A browser-based 3D MIDI player built with Three.js and Tone.js.",
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/three": "^0.186.0",
+    "typescript": "~7.0.2",
+    "vite": "^8.3.5"
+  },
+  "dependencies": {
+    "@tonejs/midi": "^2.0.28",
+    "lil-gui": "^0.21.0",
+    "smplr": "^1.1.0",
+    "soundfont2": "^0.5.0",
+    "three": "^0.186.1",
+    "tone": "^15.1.22"
+  }
+}
