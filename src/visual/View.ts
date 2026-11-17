@@ -3,7 +3,7 @@ import type { Params, Song } from "../state/State";
 
 export interface View {
   load(song: Song, scene: THREE.Scene): void;
-  update(t: number, params: Params): void;
+  update(t: number, params: Params, playing: boolean): void;
   reset(): void;
   dispose(scene: THREE.Scene): void;
 }
